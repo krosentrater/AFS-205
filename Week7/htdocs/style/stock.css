@@ -1,0 +1,21 @@
+.nav {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5em;
+    color: black;
+}
+
+a:hover {
+    background-color: lightblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+}
